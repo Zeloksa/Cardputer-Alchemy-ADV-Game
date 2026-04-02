@@ -24,10 +24,20 @@
 ---
 
 ## 🛠 Installation
+
+> [!NOTE]  
+> **Prerequisite:** Insert a formatted MicroSD card into your Cardputer before playing. This is required for the auto-save functionality to retain your unlocked elements.
+
+### Method 1: M5Burner (Recommended)
+1. Open **M5Burner**.
+2. Search for `Alchemy ADV` or `Zeloksa`.
+3. Select version **V1.0**.
+4. Burn to your M5Stack Cardputer.
+
+### Method 2: Manual Flashing
 1. Go to the **[Releases]** tab on the right side of this GitHub repository.
 2. Download the latest **Alchemy ADV `.bin`** file.
-3. Insert a formatted MicroSD card into your Cardputer (required for saving progress).
-4. Flash the `.bin` to your M5Stack Cardputer using **M5Burner** (via the local file option) or the official **Espressif ESP32 Download Tool**.
+3. Flash the `.bin` to your M5Stack Cardputer using **M5Burner** (via the local file option) or the official **Espressif ESP32 Download Tool**.
 
 ---
 
