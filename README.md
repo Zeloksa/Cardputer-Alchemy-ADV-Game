@@ -17,7 +17,6 @@
 ## ⚡ Technical Highlights
 
 * **Dynamic Environment Engine:** The game features a real-time, smoothly transitioning Day/Night cycle (120-second phases). The background is fully animated with custom events including drifting clouds, rotating suns, meteor showers, flying witches, and highly detailed rocket launches.
-* **Inline Chroma Key Rendering:** A custom graphics pipeline that uses off-screen buffering and magenta/green-screen keying to render complex 16-bit icons with perfect transparency, preventing UI artifacting during animations.
 * **Intelligent Hint System:** A built-in algorithm that scans the player's currently unlocked inventory against the entire recipe map to find valid, undiscovered combinations, highlighting the target item without spoiling the exact recipe.
 * **SD Card Persistence:** Zero-friction auto-saving. Every newly discovered element is instantly written to `/alchemy.txt` on the SD card, ensuring progress is never lost.
 * **Custom "Open Book" UI:** The interface mimics a vintage grimoire with categorized side-tabs, integrated search functionality, and an interactive 32-slot Library grid to track completion progress.
